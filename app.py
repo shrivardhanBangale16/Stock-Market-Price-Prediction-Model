@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model # type: ignore
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model = load_model('C:/Users/Shrivardhan/OneDrive/Desktop/Stock prediction/Stock Predictions Model.keras')
+model = load_model('model = load_model('Stock Predictions Model.keras')
 
 import streamlit as st
 

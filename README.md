@@ -1,81 +1,85 @@
-# Stock Market Price Prediction using LSTM and Streamlit
 
-A deep learning-powered web application that predicts stock prices using LSTM (Long Short-Term Memory) neural networks. 
-It features interactive visualization, real-time forecasting, and a clean user interface built with Streamlit.
+## 📘 `README.md`
 
----
 
-## 📌 Features
-- 📈 Predict future stock prices based on historical trends
-- 🧠 Uses LSTM neural networks for time-series forecasting
-- 🧩 Includes moving average analysis (MA50, MA100, MA200)
-- 🌐 Built with Streamlit for interactive web deployment
-- 📊 Supports both Indian and global stock tickers
+# 📈 Stock Market Price Prediction App
+
+This is a **Streamlit web application** that predicts stock prices using a trained deep learning model. It allows users to explore stock trends and visualize predictions based on past data.
+
+🔗 **Live Demo**: [Add your Streamlit app URL here]
 
 ---
 
-## 📸 Screenshots
-> Add your app screenshots in the `assets/` folder and link them here:
-```
-![App Screenshot](assets/screenshot.png)
-```
+## 🚀 Features
+
+- ✅ Predicts future stock prices using LSTM-based neural network
+- 📉 Interactive charts for stock price trends and moving averages (MA50, MA100, MA200)
+- 🔍 Easy stock selection from NIFTY 50 and US Tech stocks
+- 💡 Real-time data fetched from Yahoo Finance using `yfinance`
 
 ---
 
-## 🛠️ Tech Stack / Libraries Used
-- Python
-- Streamlit
-- TensorFlow / Keras
-- Pandas / NumPy
-- yFinance API
-- Matplotlib
+## 🧠 Technologies Used
+
+- **Python**
+- **Streamlit** for frontend
+- **TensorFlow / Keras** for the deep learning model
+- **scikit-learn** for data preprocessing
+- **yfinance** for financial data extraction
+- **matplotlib** for visualizations
 
 ---
 
-## 📁 Project Structure
-```
-.
-├── app.py
-├── Stock Predictions Model.keras
-├── Stock_Market_Prediction_Model_Creation.ipynb
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+## 📂 Project Structure
+
+📁 Stock-Market-Price-Prediction-Model/
+├── app.py                      # Streamlit app
+├── Stock\_Predictions\_Model.h5 # Trained model
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+
 
 ---
 
-## 🚀 How to Run the Project
-```bash
-# 1. Clone the repository:
-git clone https://github.com/your-username/stock-market-predictor.git
+## ▶️ Run Locally
 
-# 2. Navigate into the project folder:
-cd stock-market-predictor
+git clone https://github.com/yourusername/Stock-Market-Price-Prediction-Model.git
+cd Stock-Market-Price-Prediction-Model
 
-# 3. Install dependencies:
+# Create virtual environment (optional)
+python -m venv venv
+venv\Scripts\activate  # On Windows
+
+# Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the app:
+# Run the app
 streamlit run app.py
+---
+
+## 📊 Model Details
+
+The model was trained on historical stock closing prices using LSTM (Long Short-Term Memory) architecture for time series forecasting. The model input consists of the last 100 days of stock prices, and the output is the predicted next price.
+
+---
+
+## 🙌 Acknowledgements
+
+* [Streamlit](https://streamlit.io)
+* [Yahoo Finance](https://finance.yahoo.com)
+* [TensorFlow](https://www.tensorflow.org)
+* [yfinance](https://github.com/ranaroussi/yfinance)
+
+---
+
+## 📬 Contact
+
+Made with ❤️ by \[Your Name]
+Connect on [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/shrivardhan-bangale-081421321/))
+
 ```
 
 ---
 
-## 📈 Model Details
-The model uses 4 stacked LSTM layers with dropout regularization. 
-Input shape is based on a 100-day window of past closing prices, and the output is the predicted next-day price.
-
----
-
-## ✅ To Do / Future Enhancements
-- Add reinforcement learning for dynamic adjustment
-- Deploy with Docker or Streamlit Cloud
-- Add user-uploaded CSV support
-
----
-
-## 🙋‍♂️ Author
-Developed by **Shrivardhan**  
-Feel free to connect on LinkedIn or GitHub!
-linkedin-Shrivardhan Bangale
+Let me know if you want this personalized with your **GitHub URL**, **LinkedIn**, and **Streamlit app link** — I’ll plug those in right away!
+```

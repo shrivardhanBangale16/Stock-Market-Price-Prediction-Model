@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and dumps
+*.log
+*.out
+
+# Model files (allow your final model)
+*.keras
+*.h5
+!Stock_Predictions_Model.h5
+
+# Streamlit temporary files
+.streamlit/config.toml
+
+# Exported or intermediate files
+/exported/
+*.csv
+*.png
+*.jpg

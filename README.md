@@ -74,7 +74,7 @@ The model was trained on historical stock closing prices using LSTM (Long Short-
 
 ## 📬 Contact
 
-Made with ❤️ by \[Your Name]
+Made with ❤️ by SHRIVARDHAN BANGALE
 Connect on [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/shrivardhan-bangale-081421321/))
 
 ```

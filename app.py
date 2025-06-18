@@ -1,9 +1,10 @@
 import numpy as np
 import pandas as pd
 import yfinance as yf
-from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.models import load_model #type:ignore
 import streamlit as st
 import matplotlib.pyplot as plt
+from streamlit_option_menu import option_menu
 
 model = load_model('Stock_Predictions_Model.h5')
 

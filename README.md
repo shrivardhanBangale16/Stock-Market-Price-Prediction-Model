@@ -6,8 +6,6 @@
 
 This is a **Streamlit web application** that predicts stock prices using a trained deep learning model. It allows users to explore stock trends and visualize predictions based on past data.
 
-🔗 **Live Demo**: [Add your Streamlit app URL here]
-
 ---
 
 ## 🚀 Features
